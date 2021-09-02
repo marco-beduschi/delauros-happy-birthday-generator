@@ -4,6 +4,7 @@ import { MESSAGES } from "./messages";
 
 function App() {
   const [messages, setMessages] = useState([]);
+  const today = new Date();
 
   useEffect(() => {
     if (messages.length === MESSAGES.length) {
@@ -24,12 +25,19 @@ function App() {
         <div className="ChatRoom">
           {messages.map((msg) => {
             return (
-              <div className="Message">
+              <div key={msg.sender} className="Message">
                 <div className="MessageHeader">
                   <p>{msg.sender}</p>
                 </div>
-                <div className="MessageContent">
-                  <p>{msg.content}</p>
+                <div className="MessageContent">{msg.content}</div>
+                <div className="MessageTimeStamp">
+                  <p>
+                    {(today.getHours() < 10 ? "0" : "") +
+                      today.getHours() +
+                      ":" +
+                      (today.getMinutes() < 10 ? "0" : "") +
+                      today.getMinutes()}
+                  </p>
                 </div>
               </div>
             );

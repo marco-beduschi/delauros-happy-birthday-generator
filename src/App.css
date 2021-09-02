@@ -3,6 +3,10 @@
 .App {
 }
 
+p {
+    margin: 0;
+}
+
 .Header {
     background-color: rgb(42, 47, 50);
     height: 7.5vh;
@@ -27,6 +31,8 @@
 }
 
 .MessageHeader {
+    font-size: 15px;
+    font-weight: 500;
     color: green;
 }
 
@@ -40,6 +46,13 @@
 
 .MessageContent > p {
     margin: 0;
+}
+
+.MessageTimeStamp {
+    float: right;
+    margin: -10px 0 -5px 4px;
+    color: #f1f1f2a1;
+    font-size: 11px;
 }
 
 .mention {
