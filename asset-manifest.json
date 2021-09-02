@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/delauros-happy-birthday-generator/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/delauros-happy-birthday-generator/static/js/main.74fd55bc.chunk.js",
-    "main.js.map": "/delauros-happy-birthday-generator/static/js/main.74fd55bc.chunk.js.map",
+    "main.css": "/delauros-happy-birthday-generator/static/css/main.43165b86.chunk.css",
+    "main.js": "/delauros-happy-birthday-generator/static/js/main.b4ae8a14.chunk.js",
+    "main.js.map": "/delauros-happy-birthday-generator/static/js/main.b4ae8a14.chunk.js.map",
     "runtime-main.js": "/delauros-happy-birthday-generator/static/js/runtime-main.fc2c2019.js",
     "runtime-main.js.map": "/delauros-happy-birthday-generator/static/js/runtime-main.fc2c2019.js.map",
     "static/js/2.829c949b.chunk.js": "/delauros-happy-birthday-generator/static/js/2.829c949b.chunk.js",
@@ -10,14 +10,13 @@
     "static/js/3.fc3692eb.chunk.js": "/delauros-happy-birthday-generator/static/js/3.fc3692eb.chunk.js",
     "static/js/3.fc3692eb.chunk.js.map": "/delauros-happy-birthday-generator/static/js/3.fc3692eb.chunk.js.map",
     "index.html": "/delauros-happy-birthday-generator/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/delauros-happy-birthday-generator/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.829c949b.chunk.js.LICENSE.txt": "/delauros-happy-birthday-generator/static/js/2.829c949b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/delauros-happy-birthday-generator/static/media/logo.6ce24c58.svg"
+    "static/css/main.43165b86.chunk.css.map": "/delauros-happy-birthday-generator/static/css/main.43165b86.chunk.css.map",
+    "static/js/2.829c949b.chunk.js.LICENSE.txt": "/delauros-happy-birthday-generator/static/js/2.829c949b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fc2c2019.js",
     "static/js/2.829c949b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.74fd55bc.chunk.js"
+    "static/css/main.43165b86.chunk.css",
+    "static/js/main.b4ae8a14.chunk.js"
   ]
 }
