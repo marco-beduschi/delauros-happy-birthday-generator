@@ -1,23 +1,118 @@
-import logo from './logo.svg';
 import './App.css';
+
+const MESSAGES = [
+    {
+        sender: "Teci",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Guilherme Vieira",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Marco Beduschi",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Henrique",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "João V",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Luísa Danzberg",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Mini Bel",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Naná",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Pedreiro",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Amanda Barni",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Fred",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Ivhan",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "João Caetano",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Rafilska",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Téci",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Volkmann",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Gabriela Pinheiro",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Mariana Clara",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Luis Roberto G",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Deco",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Fábio Luís",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+    {
+        sender: "Alexandre",
+        content: <p>parabéns Nobre Doutor adÊvogado @<span className="mention">Guilherme Vieira</span></p>
+    },
+]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Header"/>
+      <div className="Body">
+          <div className="ChatRoom">
+              {
+                  MESSAGES.map((msg) => {
+                      return <div className="Message">
+                          <div className="MessageHeader">
+                              <p>{msg.sender}</p>
+                          </div>
+                          <div className="MessageContent">
+                              <p>
+                                  {msg.content}
+                              </p>
+                          </div>
+                      </div>
+                  })
+              }
+          </div>
+      </div>
     </div>
   );
 }
