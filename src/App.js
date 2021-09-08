@@ -22,16 +22,20 @@ function App() {
     <div className="App">
       <div className="Header" />
       <div className="Body">
-        <div className="ChatRoom">
+        <div className="ChatRoom bg-yellow-50">
           {messages.map((msg) => {
             return (
-              <div key={msg.sender} className="Message">
-                <div className="MessageHeader">
-                  <p>{msg.sender}</p>
+              <div key={msg.sender} className="rounded-md bg-white">
+                <div>
+                  <p className="text-sm font-bold text-green-500">
+                    {msg.sender}
+                  </p>
                 </div>
-                <div className="MessageContent">{msg.content}</div>
-                <div className="MessageTimeStamp">
-                  <p>
+                <div className="text-sm font-base text-gray-900">
+                  {msg.content}
+                </div>
+                <div>
+                  <p className="text-xs text-gray-400">
                     {(today.getHours() < 10 ? "0" : "") +
                       today.getHours() +
                       ":" +
