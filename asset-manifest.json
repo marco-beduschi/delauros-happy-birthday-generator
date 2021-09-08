@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/delauros-happy-birthday-generator/static/css/main.43165b86.chunk.css",
-    "main.js": "/delauros-happy-birthday-generator/static/js/main.13b5b786.chunk.js",
-    "main.js.map": "/delauros-happy-birthday-generator/static/js/main.13b5b786.chunk.js.map",
+    "main.css": "/delauros-happy-birthday-generator/static/css/main.f6745bd6.chunk.css",
+    "main.js": "/delauros-happy-birthday-generator/static/js/main.b11c3cc1.chunk.js",
+    "main.js.map": "/delauros-happy-birthday-generator/static/js/main.b11c3cc1.chunk.js.map",
     "runtime-main.js": "/delauros-happy-birthday-generator/static/js/runtime-main.0ee76ef0.js",
     "runtime-main.js.map": "/delauros-happy-birthday-generator/static/js/runtime-main.0ee76ef0.js.map",
     "static/js/2.290ac168.chunk.js": "/delauros-happy-birthday-generator/static/js/2.290ac168.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.74f180a3.chunk.js": "/delauros-happy-birthday-generator/static/js/3.74f180a3.chunk.js",
     "static/js/3.74f180a3.chunk.js.map": "/delauros-happy-birthday-generator/static/js/3.74f180a3.chunk.js.map",
     "index.html": "/delauros-happy-birthday-generator/index.html",
-    "static/css/main.43165b86.chunk.css.map": "/delauros-happy-birthday-generator/static/css/main.43165b86.chunk.css.map",
+    "static/css/main.f6745bd6.chunk.css.map": "/delauros-happy-birthday-generator/static/css/main.f6745bd6.chunk.css.map",
     "static/js/2.290ac168.chunk.js.LICENSE.txt": "/delauros-happy-birthday-generator/static/js/2.290ac168.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0ee76ef0.js",
     "static/js/2.290ac168.chunk.js",
-    "static/css/main.43165b86.chunk.css",
-    "static/js/main.13b5b786.chunk.js"
+    "static/css/main.f6745bd6.chunk.css",
+    "static/js/main.b11c3cc1.chunk.js"
   ]
 }
